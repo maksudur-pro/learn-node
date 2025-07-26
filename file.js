@@ -5,7 +5,7 @@ const fs = require("fs");
 const readText = fs.readFileSync("./texts/read.txt", "utf-8");
 // writing a text
 const writtenText = fs.writeFileSync(
-  "./texts/read.txt",
+  "./texts/read2.txt",
   readText + "this is my written text"
 );
 console.log(writtenText);
